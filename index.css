@@ -1,0 +1,53 @@
+body{
+    margin-top:200px;
+    padding:0;
+    text-align: center;
+}
+
+button {
+    background-color: #666161;
+    border: none;
+    color: rgb(255, 255, 255); 
+    padding: 75px 150px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 50px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #191515;
+    color:white;
+}
+
+
+.result-button {
+    display: none; /* Hide the result buttons by default */
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.result-message {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+
+
